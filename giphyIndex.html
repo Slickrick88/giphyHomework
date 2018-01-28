@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +11,14 @@
     <script src="assets/giphyJS.js"></script>
     <title>Giphy Homework</title>
 </head>
+
 <body>
-    <div class = "wrapper">
-        <div class="row" id="buttons">
-            <div class="btn-group" role="group" id="button-container"></div>
-        </div>
-    
-        <div class="row" id="body">
-            <div class="col-lg-8 " id="gif-container"></div>
+    <div class="container">
+        <div class="row" id="topic-buttons">
+            <div class="col-lg-8 btn-group" role="group" id="button-container"></div>
             <div class="col-lg-4 " id="giffySearch-container">
                 <div class="row" id="groups">
-                    <form>
+                    <form id="topic-form">
                         <div class="form-group">
                             <label for="giphySearch">Add a New Button</label>
                             <input type="text" class="form-control" id="Astrophysics" placeholder="ex. blackhole">
@@ -32,6 +30,14 @@
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <div class="row" id="body">
+            <div class="col-lg-12 item-group" role="group" id="gif-container"></div>
+            <span></span>
+        </div>
     </div>
 </body>
+
 </html>

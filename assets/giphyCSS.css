@@ -1,0 +1,38 @@
+#topic-buttons{
+    position: fixed;
+    top: 15px;
+    border: 10px;
+    z-index: 99;
+    background-color: rgb(201, 198, 195);
+
+}
+
+.topics{
+    margin:15px;
+}
+
+.topics:hover {
+    transition: top ease 0.5s;
+    border-color: rgb(66, 66, 66);
+}
+
+#body{
+    position: absolute;
+    overflow-wrap: inherit;
+    top: 200px;
+}
+
+/* #gif-container{
+    position: fixed;
+    
+    
+} */
+
+img{
+    max-width: 400px;
+    position: relative;
+    transition: top ease 0.5s;
+}
+img:hover{
+    top: -10px;
+}
